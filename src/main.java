@@ -6,5 +6,6 @@ public class main {
         fram.setVisible(true);
         JPanel panel = new JPanel();
         panel.setBorder(fram.getLayeredPane().getBorder());
+        //
     }
 }
