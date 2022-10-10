@@ -37,6 +37,7 @@ public class BasicCalculator {
                 case "5":
                 System.out.println(firstNumber / secondNumber);
                 break;
+              
             }
             
             System.out.println("what would you like to do next\n1: restart  2: choose new calculator  3: exit");
@@ -50,9 +51,10 @@ public class BasicCalculator {
             if (restart == 1) {
 
             } else if (restart == 2) {
-                Calculators.chooseCalculator();
+                Main.chooseCalculator();
             }else {
                 running = aBoolean(false);
+              
             }
 
         }

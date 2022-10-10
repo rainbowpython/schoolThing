@@ -1,7 +1,7 @@
 import java.util.Scanner;
 //please refer to README.md
 
-public class Calculators {
+public class Main {
     public static void main(String[] args){
         chooseCalculator();
     }
