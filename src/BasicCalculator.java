@@ -1,5 +1,9 @@
 import java.util.Scanner;
+/* main notes
+Due to long dinner, and not so good planning, I was unable to code this to its fullest
+I would have liked to have implemented
 
+ */
 public class BasicCalculator {
     public BasicCalculator(){
         boolean running = true;
@@ -9,6 +13,7 @@ public class BasicCalculator {
 
             System.out.println("What is the first value?");
             double firstNumber = scanner.nextDouble();
+
 
             System.out.println("next number?");
             double secondNumber = scanner.nextDouble();
@@ -24,7 +29,7 @@ public class BasicCalculator {
                 case "%", "5" -> System.out.println(firstNumber % secondNumber);
                 default -> throw new RuntimeException("Error: not a recognizable operation");
             }
-
+            
             System.out.println("what would you like to do next?");
             System.out.println("1: restart  2: choose new calculator  3: exit");
 
