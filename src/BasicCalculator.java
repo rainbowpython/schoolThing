@@ -4,7 +4,7 @@ public class BasicCalculator {
     public BasicCalculator(){
         boolean running = true;
 
-        while (running == true) {
+        while (running) {
             //instantiates Scanner object
             Scanner scanner = new Scanner(System.in);
 
