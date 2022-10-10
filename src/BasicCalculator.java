@@ -16,11 +16,11 @@ public class BasicCalculator {
             System.out.println("next number?");
             double secondNumber = scanner.nextDouble();
 
-            //
+            //asks for operator
             System.out.println("what operator?\n1: +  2: *  3: -  4: / 5: %");
             String operator = scanner.next();
 
-            //computes using the 2 values given
+            //computes using the 2 values given and the operator
             switch (operator) {
                 case "+", "1" -> System.out.println(firstNumber + secondNumber);
                 case "*", "2" -> System.out.println(firstNumber * secondNumber);
@@ -34,6 +34,8 @@ public class BasicCalculator {
 
             //made a for loop to meet a requirement
             //if one is entered, will go back to the start of the basicCalculator
+            //if 2 is entered, it will go back to choosing calcualtor prompt
+            //if 3 is chosen, application will terminate
             if (scanner.nextInt() == 1) {
 
             } else if (scanner.nextInt() == 2) {
@@ -47,7 +49,7 @@ public class BasicCalculator {
     }
 
     //Returns false if given false, true if given true
-    //I don't expect extra credit points, but this was created in the name of hvaing them
+    //I don't expect extra credit points, but this was created in the name of having them
     public boolean aBoolean(Boolean boo){
         if (boo ==true){return true;}
         else if(boo==false) {return false;}
