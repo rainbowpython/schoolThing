@@ -1,7 +1,6 @@
 import java.util.Scanner;
 //please refer to README.md
-//will NOT work with java 8
-//PLEASE USE REPLIT
+
 public class Calculators {
     public static void main(String[] args){
         chooseCalculator();
