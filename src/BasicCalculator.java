@@ -17,19 +17,11 @@ public class BasicCalculator {
             double secondNumber = scanner.nextDouble();
 
             //asks for operator
-            System.out.println("what operator?\n1: +  2: *  3: -  4: / 5: %");
+            System.out.println("what operator?\n1:+ 2:* 3:- 4:/ 5:%");
             String operator = scanner.next();
-//
+
             //computes using the 2 values given and the operator
-            /*switch (operator) {
-                case "+", "1" -> System.out.println(firstNumber + secondNumber);
-                case "*", "2" -> System.out.println(firstNumber * secondNumber);
-                case "-", "3" -> System.out.println(firstNumber - secondNumber);
-                case "/", "4" -> System.out.println(firstNumber / secondNumber);
-                case "%", "5" -> System.out.println(firstNumber % secondNumber);
-                default -> throw new RuntimeException("Error: not a recognizable operation");
-            }*/
-            switch(){
+            switch(operator){
                 case "1":
                 System.out.println(firstNumber + secondNumber);
                 break;
