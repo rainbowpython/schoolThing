@@ -15,8 +15,12 @@ public class Calculators {
 
 
         switch (scanner.nextInt()){
-            case 1 ->BasicCalculator basicCalculator = new BasicCalculator();
-            case 2 ->TriangleCalculator triangleCalculator = new TriangleCalculator();
+            case 1:
+            BasicCalculator basicCalculator = new BasicCalculator();
+            break;
+            case 2:
+            TriangleCalculator triangleCalculator = new TriangleCalculator();
+            break;
         }
 
     }
