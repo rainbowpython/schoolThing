@@ -29,6 +29,23 @@ public class BasicCalculator {
                 case "%", "5" -> System.out.println(firstNumber % secondNumber);
                 default -> throw new RuntimeException("Error: not a recognizable operation");
             }*/
+            switch(){
+                case "1":
+                System.out.println(firstNumber + secondNumber);
+                break;
+                case "2":
+                System.out.println(firstNumber * secondNumber);
+                break;
+                case "3":
+                System.out.println(firstNumber - secondNumber);
+                break;
+                case "4":
+                System.out.println(firstNumber / secondNumber);
+                break;
+                case "5":
+                System.out.println(firstNumber / secondNumber);
+                break;
+            }
             
             System.out.println("what would you like to do next\n1: restart  2: choose new calculator  3: exit");
 
