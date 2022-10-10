@@ -21,14 +21,14 @@ public class BasicCalculator {
             String operator = scanner.next();
 
             //computes using the 2 values given and the operator
-            switch (operator) {
+            /*switch (operator) {
                 case "+", "1" -> System.out.println(firstNumber + secondNumber);
                 case "*", "2" -> System.out.println(firstNumber * secondNumber);
                 case "-", "3" -> System.out.println(firstNumber - secondNumber);
                 case "/", "4" -> System.out.println(firstNumber / secondNumber);
                 case "%", "5" -> System.out.println(firstNumber % secondNumber);
                 default -> throw new RuntimeException("Error: not a recognizable operation");
-            }
+            }*/
             
             System.out.println("what would you like to do next\n1: restart  2: choose new calculator  3: exit");
 
@@ -36,9 +36,11 @@ public class BasicCalculator {
             //if one is entered, will go back to the start of the basicCalculator
             //if 2 is entered, it will go back to choosing calcualtor prompt
             //if 3 is chosen, application will terminate
-            if (scanner.nextInt() == 1) {
 
-            } else if (scanner.nextInt() == 2) {
+            int restart = scanner.nextInt();
+            if (restart == 1) {
+
+            } else if (restart == 2) {
                 Calculators.chooseCalculator();
             }else {
                 running = aBoolean(false);

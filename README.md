@@ -1,4 +1,4 @@
-# schoolCalculator
+# schoolThing
 Made for a school asignment
 
 WARNING: use jdk version 14 or above, I used a feature added in 14, which is not present in 8
