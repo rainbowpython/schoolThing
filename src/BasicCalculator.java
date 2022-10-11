@@ -46,7 +46,6 @@ public class BasicCalculator {
             //if one is entered, will go back to the start of the basicCalculator
             //if 2 is entered, it will go back to choosing calcualtor prompt
             //if 3 is chosen, application will terminate
-
             int restart = scanner.nextInt();
             if (restart == 1) {
 

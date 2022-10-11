@@ -1,6 +1,6 @@
 import java.util.Scanner;
 //please refer to README.md
-
+//needs jdk 12 or higher
 public class Main {
     public static void main(String[] args){
         chooseCalculator();
