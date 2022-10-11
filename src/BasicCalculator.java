@@ -35,7 +35,7 @@ public class BasicCalculator {
                 System.out.println(firstNumber / secondNumber);
                 break;
                 case "5":
-                System.out.println(firstNumber / secondNumber);
+                System.out.println(firstNumber % secondNumber);
                 break;
               
             }
