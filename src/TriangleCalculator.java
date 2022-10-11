@@ -35,11 +35,14 @@ public class TriangleCalculator {
     }
     //each of these methods calculate respective sides
     public void calculateA(Scanner scanner){
+      //asks for one side
         System.out.println("Enter B (side)");
         double B = scanner.nextDouble();
-
+      //asks for another side
         System.out.println("Enter C (hypotenuse)");
         double C = scanner.nextDouble();
+
+      //uses valutes in equation to print answer
         double result = sqrt(C*C - B*B);
         if(result == 0){
             throw new RuntimeException("invalid inputs");
@@ -53,6 +56,7 @@ public class TriangleCalculator {
 
         System.out.println("Enter C (hypotenuse)");
         double C = scanner.nextDouble();
+      
         double result = sqrt(C*C - A*A);
         if(result == 0){
             throw new RuntimeException("invalid inputs");
@@ -66,10 +70,12 @@ public class TriangleCalculator {
 
         System.out.println("Enter B (side)");
         double B = scanner.nextDouble();
+      
         double result = sqrt(B*B + A*A);
         if(result == 0){
             throw new RuntimeException("invalid inputs");
         }
+      
         System.out.println("Your result is " + result);
     }
 }

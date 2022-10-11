@@ -5,8 +5,8 @@ public class Main {
     public static void main(String[] args){
         chooseCalculator();
     }
-
-
+  
+  //prompts user to select from 2 calulators
     public static void chooseCalculator(){
         System.out.println("What calculator would you like to use?");
         System.out.println("1: basic calculator  2: side of a triangle ");
