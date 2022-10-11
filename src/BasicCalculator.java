@@ -17,9 +17,9 @@ public class BasicCalculator {
             double secondNumber = scanner.nextDouble();
 
             //asks for operator
-            System.out.println("what operator?\n1:+ 2:* 3:- 4:/ 5:%");
+            System.out.println("What operator?\n1:+ 2:* 3:- 4:/ 5:%");
             String operator = scanner.next();
-
+            System.out.print("Your result is ");
             //computes using the 2 values given and the operator
             switch(operator){
                 case "1":
